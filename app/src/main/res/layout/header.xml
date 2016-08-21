@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutHeader"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/header_gradient"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bookmark"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/bookmarkFeed"
+        android:onClick="onBookmark"
+        />
+
+    <!-- Dropdown List -->
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:id="@+id/newsChannel"
+        android:entries="@array/channels"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/subs"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:id="@+id/subscribe"
+        android:onClick="onSubscribe"
+        />
+
+
+</RelativeLayout>

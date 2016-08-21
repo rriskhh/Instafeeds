@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_box_pad">15dp</dimen>
+    <dimen name="main_box_border">1dp</dimen>
+    <item name="main_box_img_wt" format="float" type="dimen">0.8</item>
+    <item name="main_box_text_wt" format="float" type="dimen">0.2</item>
+    <dimen name="thumbHeight">250dip</dimen>
+</resources>

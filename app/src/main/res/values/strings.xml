@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Instafeeds</string>
+    <string name="banner_add_unit_1">ca-app-pub-7599807818943725/5559926290</string>
+
+    <string-array name="channels">
+        <item>NDTV</item>
+        <item>BBC</item>
+        <item>Reuters</item>
+        <item>CNN</item>
+        <item>Sky</item>
+    </string-array>
+</resources>
